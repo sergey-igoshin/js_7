@@ -249,8 +249,8 @@ const main = {
   createContentMarket(product, btn_dict){
     let c = '';   
     c += '<div class="'+this.cls.container.product+'">';   
-    product.forEach(function(el){
-      c += main.content(el, btn_dict);
+    product.forEach((el) => {
+      c += this.content(el, btn_dict);
     });    
     c += '</div>';     
     return c;
