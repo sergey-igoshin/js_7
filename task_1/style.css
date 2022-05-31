@@ -1,0 +1,46 @@
+h1,
+p {
+  margin: 10px auto;
+  width: 480px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.market,
+.cart {
+  margin: 10px auto;
+  width: 480px;
+  display: table;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+button {
+  height: 30px;
+  cursor: pointer;
+}
+
+button,
+.text {
+  width: 120px;
+}
+
+.product,
+.footer {
+  margin: 10px auto;
+  display: table;
+  vertical-align: middle;
+  padding: 0px 10px;
+}
+
+.text {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0px 10px;
+}
+
+.right {
+  text-align: right;
+}
